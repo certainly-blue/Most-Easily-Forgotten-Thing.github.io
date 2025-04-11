@@ -1,3 +1,51 @@
 body {
-  background-color: #379758;
+  background-color: white;
+  font-family: Gill Sans, sans-serif;
+  font-size: 16px;
+  text-align: center;
 }
+
+img {
+  max-width: 25%;
+  max-height: 25%;
+  position: relative;
+  top: 5px;
+  left: 35%;
+
+}
+
+#cardspace {
+  border: 2px solid rgb(0, 0, 0);
+  background-color: #b0c1d6;
+  height: 130px;
+  padding-bottom: 40px;
+  padding-top: 10px;
+}
+
+button {
+  font-family: Gill Sans, sans-serif;
+  background-color: rgb(48, 46, 71);
+  text-align: center;
+  font-size: 14px;
+  color: white;
+  padding: 15px 15px;
+
+  transition-duration: .3s;
+
+}
+
+button:hover {
+  background-color: rgb(79, 53, 84);
+  color: white;
+
+} 
+
+.container {
+  border: 0px solid rgb(0, 0, 0);
+  margin: 70px;
+  padding: 60px;
+  text-align: center;
+}
+
+/* @media (max-width: 575.98px){} */
+
