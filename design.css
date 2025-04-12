@@ -3,11 +3,14 @@ body {
   font-family: Gill Sans, sans-serif;
   font-size: 16px;
   text-align: center;
+  padding: 40px;
 }
 
 img {
-  max-width: 25%;
-  max-height: 25%;
+  max-width: 30%;
+  max-height: 30%;
+  min-width: 20%;
+  min-height: 20%;
   position: relative;
   top: 5px;
   left: 35%;
@@ -41,9 +44,9 @@ button:hover {
 } 
 
 .container {
-  border: 0px solid rgb(0, 0, 0);
-  margin: 70px;
-  padding: 60px;
+  border: 1px solid rgb(0, 0, 0);
+  margin: 30px;
+  padding: 20px 20px;
   text-align: center;
 }
 
