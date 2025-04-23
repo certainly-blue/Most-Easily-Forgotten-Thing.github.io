@@ -3,10 +3,12 @@ body {
   font-family: Gill Sans, sans-serif;
   font-size: 16px;
   text-align: center;
-  padding: 40px;
+  /* padding: 40px; */
+  padding-left: 10%;
+  padding-right: 10%;
 }
 
-img {
+.img1 {
   max-width: 30%;
   max-height: 30%;
   min-width: 20%;
@@ -17,12 +19,22 @@ img {
 
 }
 
+.img2 {
+  width: 336px;
+  height: 168px;
+  position: relative;
+  top: 5px;
+
+}
+
 #cardspace {
   border: 2px solid rgb(0, 0, 0);
   background-color: #b0c1d6;
   height: 130px;
   padding-bottom: 40px;
   padding-top: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
 }
 
 button {
@@ -48,6 +60,15 @@ button:hover {
   margin: 30px;
   padding: 20px 20px;
   text-align: center;
+}
+
+#instructions {
+  border: 0px solid rgb(0, 0, 0);
+  background-color: #ffffff;
+  height: 550;
+  padding-bottom: 40px;
+  padding-top: 10px;
+  text-align: left;
 }
 
 /* @media (max-width: 575.98px){} */
